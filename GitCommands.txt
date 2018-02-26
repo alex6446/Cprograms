@@ -1,5 +1,17 @@
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/alex6446/test.git
-git push -u origin master
+//HTTPS
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin https://github.com/alex6446/test.git
+	git push -u origin master
+//SSH
+	git init
+	git add .
+	git commit -m "first commit"
+	ssh-keygen
+	cat ~/.ssh/id_rsa.pub
+	(copy to "Settings - New SSH key")
+	git remote add origin git@github.com:alex6446/Cprograms.git
+	git push origin master
+
+
