@@ -14,4 +14,5 @@
 	git remote add origin git@github.com:alex6446/Cprograms.git
 	git push origin master
 
+		!!!First you have to clone all files from the GitHub!!!
 
