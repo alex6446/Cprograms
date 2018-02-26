@@ -15,4 +15,3 @@
 	git push origin master
 
 		!!!First you have to clone all files from the GitHub!!!
-
