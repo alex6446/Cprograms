@@ -6,6 +6,8 @@
 	git push -u origin master
 //SSH
 	git init
+	git config --global user.name "alex6446"
+	git config --global user.email "alexeymedenitskiy@gmail.com"
 	git add .
 	git commit -m "first commit"
 	ssh-keygen
