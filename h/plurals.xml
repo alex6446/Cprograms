@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-xxxxxxxxxxx
 <resources>
     <plurals name="abc_slice_duration_days">
         <item quantity="other">%d дн. назад</item>
