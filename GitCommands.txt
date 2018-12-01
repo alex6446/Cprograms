@@ -1,0 +1,22 @@
+//HTTPS
+	git init
+	git config --global user.name "alex6446"
+	git config --global user.email "alexeymedenitskiy@gmail.com"
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin https://github.com/alex6446/test.git
+	git push -u origin master
+//SSH
+	git init
+	git config --global user.name "alex6446"
+	git config --global user.email "alexeymedenitskiy@gmail.com"
+	git add .
+	git commit -m "first commit"
+	ssh-keygen
+	cat ~/.ssh/id_rsa.pub
+	(copy to "Settings - New SSH key")
+	git remote add origin git@github.com:alex6446/Cprograms.git
+	git pull origin master
+	git push origin master
+
+		!!!First you have to clone or pull all files from GitHub repository!!!
